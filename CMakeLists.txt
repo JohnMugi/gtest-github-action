@@ -17,7 +17,6 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 add_compile_options("--coverage")
 add_executable(
-  cleancode
   bootutil.cpp
   bootutil.Tests.cpp
   
