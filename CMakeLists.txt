@@ -18,8 +18,8 @@ enable_testing()
 add_compile_options("--coverage")
 add_executable(
   cleancode
-  bootutil.cpp
-  bootutil.Tests.cpp
+  Bootutil.cpp
+  Bootutil.Tests.cpp
   
 )
 target_link_libraries(
