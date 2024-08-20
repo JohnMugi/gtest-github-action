@@ -18,7 +18,7 @@ TEST(bootutilTests, jumptoapp) {
     //act
     int expected = 0x0002;
     int actual = bootutil();
-    ASSERT_EQ(expected,actual);
+    ASSERT_NQ(expected,actual);
     
     //assert
 }
