@@ -20,6 +20,8 @@ add_executable(
   cleancode
   Bootutil.cpp
   Bootutil.Tests.cpp
+  StringCalculator.cpp
+  StringCalculator.Tests.cpp
   
 )
 target_link_libraries(
