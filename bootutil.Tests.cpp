@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "bootutil.h"
+#include "Bootutil.h"
 
 
 TEST(bootutilTests, jumptofbl) {
