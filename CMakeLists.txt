@@ -22,6 +22,7 @@ add_executable(
   Bootutil.Tests.cpp
   StringCalculator.cpp
   StringCalculator.Tests.cpp
+  DataDrivenTests.cpp
   
 )
 target_link_libraries(
